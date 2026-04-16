@@ -71,6 +71,8 @@ public class QrService {
                 }
                 return " TIMED GELDIG";
 
+            default:
+                return "X ONBEKEND TYPE";
         }
     }
 
