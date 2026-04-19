@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QR App</title>
+</head>
+<body>
+
+<h2>QR Genereren</h2>
+<input id="userId" placeholder="User ID">
+<label>
+  <input type="checkbox" id="dynamic"> Dynamisch
+</label>
+<button onclick="generateQR()">Genereer</button>
+
+<pre id="qrOutput"></pre>
+
+<h2>Scan (simulatie)</h2>
+<button onclick="scan()">Scan QR</button>
+
+<h2>Sync</h2>
+<button onclick="sync()">Sync naar backend</button>
+
+<pre id="log"></pre>
+
+<script src="app.js"></script>
+
+</body>
+</html>
